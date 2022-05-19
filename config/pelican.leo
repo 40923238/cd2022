@@ -62,6 +62,7 @@
 <v t="leo.20220428165452.1"><vh>@edit 20220428.md</vh></v>
 <v t="leo.20220428170540.1"><vh>@edit 20220428nx_integ.md</vh></v>
 <v t="leo.20220428170630.1"><vh>@edit 20220428-SSH.md</vh></v>
+<v t="leo.20220519162624.1"><vh>@edit 20220519-online.md</vh></v>
 </v>
 </v>
 </v>
@@ -173,7 +174,7 @@ vertical: body pane on the botton</t>
 <t tx="yen.20170108171733.2">@language python
 import os
 
-os.system("pelican markdown -o blog -s local_publishconf.py")
+os.system("")
 g.es("admin pelican 近端執行完畢")
 
 

@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40923238 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-04-28T17:08:53+08:00</updated><entry><title>w10_block_ui</title><link href="./w10_block_ui.html" rel="alternate"></link><published>2022-04-28T05:00:00+08:00</published><updated>2022-04-28T16:59:30+08:00</updated><author><name>40923238</name></author><id>tag:None,2022-04-28:./w10_block_ui.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40923238 網際內容管理</title><link href="https://40923238.github.io/cd2022/blog/" rel="alternate"></link><link href="https://40923238.github.io/cd2022/blog/feeds/all.atom.xml" rel="self"></link><id>https://40923238.github.io/cd2022/blog/</id><updated>2022-05-19T16:34:07+08:00</updated><entry><title>w13 online</title><link href="https://40923238.github.io/cd2022/blog/online.html" rel="alternate"></link><published>2022-04-28T05:00:00+08:00</published><updated>2022-05-19T16:34:07+08:00</updated><author><name>40923238</name></author><id>tag:40923238.github.io,2022-04-28:/cd2022/blog/online.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+
+
+&lt;p&gt;w13&lt;/p&gt;
+&lt;p&gt;STL:https://40923238.github.io/cd2022/content/STL.html&lt;/p&gt;
+&lt;p&gt;XML:https://40923238.github.io/cd2022/content/XML.html&lt;/p&gt;
+&lt;p&gt;控制碼:https://40923238.github.io/cd2022/content/%E6%8E%A7%E5%88%B6%E7%A2%BC.html&lt;/p&gt;
+&lt;p&gt;心得:大組倉儲要使用putty，再加上還要跟其他人協調使用時間，不然會相衝，做起來的感覺很複雜。&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>w10_block_ui</title><link href="https://40923238.github.io/cd2022/blog/w10_block_ui.html" rel="alternate"></link><published>2022-04-28T05:00:00+08:00</published><updated>2022-05-05T14:39:43+08:00</updated><author><name>40923238</name></author><id>tag:40923238.github.io,2022-04-28:/cd2022/blog/w10_block_ui.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 
 
 &lt;p&gt;w10_block_ui&lt;/p&gt;
-&lt;p&gt;wink在這裡:https://40923238.github.io/cd2022/content/w10_block_ui.html&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>w10_nx_integ</title><link href="./w10_nx_integ.html" rel="alternate"></link><published>2022-04-28T05:00:00+08:00</published><updated>2022-04-28T17:08:53+08:00</updated><author><name>40923238</name></author><id>tag:None,2022-04-28:./w10_nx_integ.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+&lt;p&gt;wink在這裡:https://40923238.github.io/cd2022/content/w10_block_ui.html&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>w10_nx_integ</title><link href="https://40923238.github.io/cd2022/blog/w10_nx_integ.html" rel="alternate"></link><published>2022-04-28T05:00:00+08:00</published><updated>2022-05-05T14:39:43+08:00</updated><author><name>40923238</name></author><id>tag:40923238.github.io,2022-04-28:/cd2022/blog/w10_nx_integ.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 
 
-&lt;p&gt;w10_nx_integ&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>w10_ssh</title><link href="./w10_ssh.html" rel="alternate"></link><published>2022-04-28T05:00:00+08:00</published><updated>2022-04-28T17:08:53+08:00</updated><author><name>40923238</name></author><id>tag:None,2022-04-28:./w10_ssh.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+&lt;p&gt;w10_nx_integ&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>w10_ssh</title><link href="https://40923238.github.io/cd2022/blog/w10_ssh.html" rel="alternate"></link><published>2022-04-28T05:00:00+08:00</published><updated>2022-05-05T14:39:43+08:00</updated><author><name>40923238</name></author><id>tag:40923238.github.io,2022-04-28:/cd2022/blog/w10_ssh.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 
 
-&lt;p&gt;w10_ssh&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W8</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-21T03:00:00+08:00</published><updated>2022-04-21T15:21:28+08:00</updated><author><name>40923238</name></author><id>tag:None,2022-04-21:./midterm.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+&lt;p&gt;w10_ssh&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W8</title><link href="https://40923238.github.io/cd2022/blog/midterm.html" rel="alternate"></link><published>2022-04-21T03:00:00+08:00</published><updated>2022-05-05T14:39:43+08:00</updated><author><name>40923238</name></author><id>tag:40923238.github.io,2022-04-21:/cd2022/blog/midterm.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 
 
 &lt;p&gt;W8 期中考
-每組自行分配繪圖資源，最後匯入compilesim組裝且使其動起來&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W6</title><link href="./w6_40923238.html" rel="alternate"></link><published>2022-04-07T03:00:00+08:00</published><updated>2022-04-21T15:18:32+08:00</updated><author><name>40923238</name></author><id>tag:None,2022-04-07:./w6_40923238.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+每組自行分配繪圖資源，最後匯入compilesim組裝且使其動起來&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W6</title><link href="https://40923238.github.io/cd2022/blog/w6_40923238.html" rel="alternate"></link><published>2022-04-07T03:00:00+08:00</published><updated>2022-05-05T14:39:43+08:00</updated><author><name>40923238</name></author><id>tag:40923238.github.io,2022-04-07:/cd2022/blog/w6_40923238.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 
 
 &lt;p&gt;W6 工作
 使用Leo編輯器製作blog網頁，並生成一個名為W6的頁面，網址需為w6才能被抽驗器偵測到
 (Warning:須檢查網址中有無多餘的符號或文字
-Ex:空格或點不容易發現，在推上網站後才發現錯誤)&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W7</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-04-07T03:00:00+08:00</published><updated>2022-04-21T15:18:32+08:00</updated><author><name>40923238</name></author><id>tag:None,2022-04-07:./w7_summary.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
+Ex:空格或點不容易發現，在推上網站後才發現錯誤)&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W7</title><link href="https://40923238.github.io/cd2022/blog/w7_summary.html" rel="alternate"></link><published>2022-04-07T03:00:00+08:00</published><updated>2022-05-05T14:39:43+08:00</updated><author><name>40923238</name></author><id>tag:40923238.github.io,2022-04-07:/cd2022/blog/w7_summary.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習.&lt;/p&gt;
 
 
