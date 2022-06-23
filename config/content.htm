@@ -1415,7 +1415,61 @@ frameStops: {
 <p>------------------------------------------------------------------------------------------</p>
 <p><img alt="" height="313" src="/images/W18.2.png" width="551"/></p>
 <p><span>------------------------------------------------------------------------------------------</span></p>
+<p><span></span></p>
+<p><span>------------------------------------------------------------------------------------------</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">function closeEventHandler(h)
+    sim.addLog(sim.verbosity_scriptinfos,'Window '..h..' is closing...')
+    simUI.hide(h)
+end
+ 
+function joint1_rotate(ui,id,newVal)
+    simUI.setLabelText(ui,3000,'theta1 set to '..newVal)
+    sim.setJointTargetPosition(joint1, newVal*deg)
+end
+ 
+function joint2_rotate(ui,id,newVal)
+    simUI.setLabelText(ui,3000,'theta2 set to '..newVal)
+    sim.setJointTargetPosition(joint2, newVal*deg)
+end
+ 
+function joint3_rotate(ui,id,newVal)
+    simUI.setLabelText(ui,3000,'theta3 set to '..newVal)
+    sim.setJointTargetPosition(joint3, newVal*deg)
+end
+
+function sysCall_init()
+    -- do some initialization here
+    joint1 = sim.getObjectHandle('one')
+    joint2 = sim.getObjectHandle('two')
+    joint3 = sim.getObjectHandle('three')
+    i = 0
+    deg = math.pi/180
+    print(i)
+    xml = [[
+&lt;ui closeable="true" on-close="closeEventHandler" resizable="true"&gt;
+    &lt;label text="This is a demo of the CustomUI plugin. Browse through the tabs below to explore all the widgets that can be created with the plugin." wordwrap="true" /&gt;
+    &lt;tabs&gt;
+        &lt;tab title="Numeric"&gt;a
+            &lt;label text="Sliders can be oriented horizontally or vertically, and have optional properties that can be set (in the XML) such as minimum and maximum value." wordwrap="true" /&gt;
+            &lt;label text="" id="3000" wordwrap="true" /&gt;
+            &lt;label text="Base" /&gt; &lt;hslider tick-position="above" tick-interval="1"
+            minimum="0" maximum="360" on-change="joint1_rotate" /&gt;
+            &lt;label text="Up_Down" /&gt; &lt;hslider tick-position="above" tick-interval="1"
+            minimum="0" maximum="80" on-change="joint2_rotate" /&gt;
+            &lt;label text="Before and after" /&gt; &lt;hslider tick-position="above" tick-interval="1"
+            minimum="-20" maximum="20" on-change="joint3_rotate" /&gt;
+        &lt;/tab&gt;
+    &lt;/tabs&gt;
+&lt;/ui&gt;
+]]
+    ui=simUI.create(xml)
+     
+end</pre>
+<p><span>------------------------------------------------------------------------------------------</span></p>
 <p><span><strong>心得:</strong>NX繪圖相比起SW非常不習慣，更難的地方是Python程式，如果沒有小組裡面其他比較會做的人幫忙，不然真的生不出結果。</span></p>
 <p>------------------------------------------------------------------------------------------</p>
 <p><strong>遠端控制</strong></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="720" src="https://www.youtube.com/embed/chn0Zxmad5Y" title="遠端控制" width="1280"></iframe></p></div></div>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="720" src="https://www.youtube.com/embed/chn0Zxmad5Y" title="遠端控制" width="1280"></iframe></p>
+<p>------------------------------------------------------------------------------------------</p>
+<p><strong>遠端控制吸盤</strong></p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="720" src="https://www.youtube.com/embed/kA8yfw3TKZM" title="遠端吸盤控制" width="1280"></iframe></p></div></div>
