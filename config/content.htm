@@ -1417,6 +1417,30 @@ frameStops: {
 <p><span>------------------------------------------------------------------------------------------</span></p>
 <p><span><img alt="" src="/images/組合圖.png" width="1280"/></span></p>
 <p><span>------------------------------------------------------------------------------------------</span></p>
+<div class="winkVideoPlayOverlayClass"></div>
+<p><strong>組合活動</strong></p>
+<script>
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+</script>
+<div class="winkVideoContainerClass"><video class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" height="768" width="1280">
+<source src="./../downloads/W18.3.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">function closeEventHandler(h)
     sim.addLog(sim.verbosity_scriptinfos,'Window '..h..' is closing...')
     simUI.hide(h)
